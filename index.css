@@ -1,0 +1,56 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color:khaki;
+    margin: 0px;
+}
+#navbar ul {
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    list-style-type: none;
+}
+
+h3{
+    color: black;
+}
+#navbar li{
+    float: left;
+}
+#navbar li a{
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: white;
+}
+
+#navbar li a:hover{
+    background-color: burlywood;
+}
+#food li a{
+    text-decoration: none;
+    color: darkslateblue;
+}
+image{
+    height: 400px;
+    width: 400px;
+    display: block;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+p{
+    color: rgb(0, 0, 0);
+    display: block;
+    text-align: center;
+    margin-bottom: 30px;
+}
